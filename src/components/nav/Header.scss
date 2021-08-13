@@ -1,0 +1,113 @@
+@import "../../assets/variables";
+.header-container {
+  &:hover{
+    color: $white;
+    cursor: pointer;
+
+  }
+  
+  .ant-menu-horizontal {
+    line-height: 0;
+    border: 0;
+    border-bottom: 0;
+    box-shadow: none;
+    color: $white;
+  }
+  .ant-layout-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // height: 80px;
+    // padding: 0 100px;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 100px;
+  .ant-menu-item a {
+    color: white;
+  }
+
+  .right-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // @media screen and (max-width:765px) {
+    //   display: none;
+    //   // margin-right:÷ 20px;
+    // }
+
+    
+  }
+
+  .right-item-mobile{
+    &>*{
+      padding: 10px 20px;
+    }
+    li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-active.ant-menu-item-only-child {
+      background-color: transparent;
+      display: block;
+      padding: 10px;
+  }
+    z-index: 10000;
+    // width: 100%;
+    &>a{
+      background-color: transparent;
+      display: block;
+      
+    }
+    background-color: #ee6e73;
+    position: fixed;
+    padding: 10px 40px;
+    transform: translateX(-91px) translateY(21px);
+    
+    margin-right: 83px;
+ 
+
+li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-active.ant-menu-item-only-child {
+  &:visited, &:link {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
+    background-size: 220%;
+    transition: all .4s;
+  
+    span {
+        margin-right: 1.5rem;
+        display: inline-block;
+    }
+  
+  
+  }
+}
+}
+.main-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+}
+.right-transform{
+
+padding: 20px;
+height: 100%;
+width: 100vw;
+border: 1px solid black;
+transform: translateX(-425px);
+}} 
+
+
+li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-active.ant-menu-item-only-child{
+  padding: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  &:hover{
+    background-color: #55c57a;
+    color: white;
+  }
+}

@@ -1,0 +1,105 @@
+@import "../../../../assets//variables";
+.brandstory-container {
+  position: relative;
+  width: 100%;
+  .brand-bg {
+    @media screen and(max-width:1000px) {
+      height: 100vh;
+      width: 100vw !important;
+      // background-color: #0665bb
+      // opacity: 0;
+    }
+    width: 100%;
+  }
+  .brand-txt {
+    &>*{
+      padding-bottom: 20px;
+
+    }
+    @media screen and(max-width:1000px) {
+      margin-top: 150px;
+    }
+    .head-mb {
+      & > * {
+        @media screen and(max-width:1000px) {
+          color: white;
+          -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+          -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+          text-align: center;
+        }
+        width: 550px;
+        text-align: center;
+        margin-top: 90px;
+      }
+    }
+    @media screen and(max-width:1300px) {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba(126, 213, 111, 0.85),
+        rgba(40, 180, 133, 0.85)
+      );
+      // display: inline-block;
+      left: 0;
+    }
+
+    h1 {
+      font-size: 50px;
+      color: $orange-sub;
+    }
+    .brand-title {
+      color: #fcd32a;
+    }
+    position: absolute;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    color: #fcd32a;    position: absolute;
+    top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 10%;
+    /* right: 40%; */
+    color: #fcd32a;
+    width: 500px;
+    text-align: center;
+  }
+  .brand-content {
+    @media screen and (max-width: 1300px) and (min-width: 1200px) {
+      width: 410px;
+    margin-top: 280px;
+    width: 410px;
+    margin-top: 280px;
+    position: absolute;
+    top: -93px;
+    margin-left: auto;
+    margin-right: auto;
+    right: -151px;
+    color: #fcd32a;
+    font-size: 12px;
+    }
+    & > p {
+      color: black;
+    }
+    width: 410px;
+
+    margin-top: 280px;
+    h1 {
+      font-size: 50px;
+      color: $orange-sub;
+    }
+
+    width: 410px;
+    margin-top: 280px;
+    position: absolute;
+    top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    right: -100px;
+    color: #fcd32a;
+  }
+}

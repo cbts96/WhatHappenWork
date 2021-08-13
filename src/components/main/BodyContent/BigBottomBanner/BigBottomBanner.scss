@@ -1,0 +1,64 @@
+@import "../../../../assets/variables";
+.banner-bot-container {
+  position: relative;
+  .img-banner-bot {
+    margin-top: 60px;
+    width: 100%;
+    @media screen and (max-width: 1000px) {
+      padding-top: 250px;
+    }
+  }
+  .banner-text {
+    position: absolute;
+    top: 50px;
+    left: 37%;
+    text-align: center;
+    @media screen and (max-width: 525px) {
+      font-size: 90%;
+      left: 90px;
+      top: 97px;
+    }
+    @media screen and (max-width: 405px) {
+      font-size: 90%;
+      left: auto;
+    }
+    h1 {
+      // color: $orange-primary;
+      margin-bottom: 30px;
+      font-size: 50px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 6.5px;
+      @media screen and (max-width: 1000px) {
+        font-size: 30px;
+        margin-bottom: 5x;
+        font-size: 40px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+      }
+    }
+    .content {
+      // color:$orange-secondary
+      width: 550px;
+      @media screen and (max-width: 1000px) {
+        width: 350px;
+      }
+    }
+    button {
+      @media screen and (max-width: 1000px) {
+        font-size: 14px;
+        font-weight: 100;
+        margin-top: 0px;
+        padding: 5px 10px;
+      }
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 20px;
+      background-color: $white;
+      padding: 20px 50px;
+      border: 2px solid $black;
+      cursor: pointer;
+    }
+  }
+}
