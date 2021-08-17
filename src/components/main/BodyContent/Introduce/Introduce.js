@@ -17,7 +17,7 @@ const Introduce = () => {
       
    <Row >
         <Col span={16}><h3 style={{color:"white"}}>What Happened!</h3>
-        <p style={{fontSize:"14px"}}>
+        <p style={{fontSize:"7px"}}>
           How to create mobile-optimized videos in minutes. Not a designer,
           every team makesa lot ofvideos Can be trimmed.Take the first step to your
           brand's success. How to create mobile-optimized videos in minutes.

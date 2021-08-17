@@ -34,7 +34,7 @@
         margin-top: 90px;
       }
     }
-    @media screen and(max-width:1300px) {
+    @media screen and(max-width:1200px) {
       background-image: linear-gradient(
         to right bottom,
         rgba(126, 213, 111, 0.85),
@@ -43,7 +43,7 @@
       // display: inline-block;
       left: 0;
     }
-
+ 
     h1 {
       font-size: 50px;
       color: $orange-sub;
@@ -78,7 +78,7 @@
     top: -93px;
     margin-left: auto;
     margin-right: auto;
-    right: -151px;
+    right: -86px;
     color: #fcd32a;
     font-size: 12px;
     }
@@ -101,5 +101,13 @@
     margin-right: auto;
     right: -100px;
     color: #fcd32a;
+    @media (max-width: 2000px) and (min-width: 1750px){
+      margin-top: 450px;
+    }
+    // @media (max-width: 3000px) and (min-width: 2001px){
+    //   margin-top: 490px;
+     
+    // }
   }
+  
 }
